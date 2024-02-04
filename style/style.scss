@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'TT Firs';
     src: local('TT Firs Bold'), local('TT-Firs-Bold'),
-        url('/fonts/TTFirs-Bold.woff2') format('woff2'),
+        url('./fonts/TTFirs-Bold.woff2') format('woff2'),
 
         local('TT Firs Extra Bold'), local('TT-Firs-Extra-Bold'),
-        url('/fonts/TTFirs-ExtraBold.woff2') format('woff2'),
+        url('./fonts/TTFirs-ExtraBold.woff2') format('woff2'),
 
         local('TT Firs Medium'), local('TT-Firs-Medium'),
-        url('/fonts/TTFirs-Medium.woff2') format('woff2'),
+        url('./fonts/TTFirs-Medium.woff2') format('woff2'),
 
         local('TT Firs Regular'), local('TT-Firs-Regular'),
-        url('/fonts/TTFirs-Regular.woff2') format('woff2');
+        url('./fonts/TTFirs-Regular.woff2') format('woff2');
     font-weight: 800, 700, 500, 400;
     font-style: normal;
 }
@@ -257,7 +257,7 @@ header{
 }
 
 .banner_slider{
-    background-image: url('/img/main_page_slider/Rectangle 4.png');
+    background-image: url('./img/main_page_slider/Rectangle 4.png');
     width: 78%;
     height: 368px;
     background-size: cover;
@@ -614,19 +614,19 @@ header{
 }
 
 .popular_categories__card_1{
-    background-image: url(/img/popular_categories/Toys\ for\ cats.png);
+    background-image: url(./img/popular_categories/Toys\ for\ cats.png);
 }
 
 .popular_categories__card_2{
-    background-image: url(/img/popular_categories/clothes_for_cats.png);
+    background-image: url(./img/popular_categories/clothes_for_cats.png);
 }
 
 .popular_categories__card_3{
-    background-image: url(/img/popular_categories/Feed\ for\ birds.png);
+    background-image: url(./img/popular_categories/Feed\ for\ birds.png);
 }
 
 .popular_categories__card_4{
-    background-image: url(/img/popular_categories/Food\ for\ fish.png);
+    background-image: url(./img/popular_categories/Food\ for\ fish.png);
 }
 
 .popular_categories__container{
@@ -690,7 +690,7 @@ header{
 }
 
 .brand_card__1{
-    background-image: url(/img/brands/royal_canin__280x200.png);
+    background-image: url(./img/brands/royal_canin__280x200.png);
 
     a{
         position: absolute;
@@ -700,15 +700,15 @@ header{
 }
 
 .brand_card__2{
-    background-image: url(/img/brands/purina.png);
+    background-image: url(./img/brands/purina.png);
 }
 
 .brand_card__3{
-    background-image: url(/img/brands/acana.png);
+    background-image: url(./img/brands/acana.png);
 }
 
 .brand_card__4{
-    background-image: url(/img/brands/hills.png);
+    background-image: url(./img/brands/hills.png);
 
     a{
         position: absolute;
@@ -821,7 +821,7 @@ header{
 }
 
 .social_block__logo{
-    background-image: url("/img/Slogan/EUROZOO Sign Slogan Orange 1.png");
+    background-image: url("./img/Slogan/EUROZOO Sign Slogan Orange 1.png");
     width: 180px;
     height: 48px;
 }
@@ -964,7 +964,7 @@ header{
     }
 
     .banner_slider{
-        background-image: url(/img/mobile/top_slider/Rectangle\ 4.png);
+        background-image: url(./img/mobile/top_slider/Rectangle\ 4.png);
         width: 345px;
         height: 663px;
         display: flex;
@@ -1122,24 +1122,24 @@ header{
     }
 
     .popular_categories__card_1{
-        background-image: url(/img/mobile/popular_categories/toys_for_cats.png);
+        background-image: url(./img/mobile/popular_categories/toys_for_cats.png);
     }
 
     .popular_categories__card_2{
-        background-image: url(/img/mobile/popular_categories/clothes_for_cats.png);
+        background-image: url(./img/mobile/popular_categories/clothes_for_cats.png);
     }
 
     .popular_categories__card_3{
-        background-image: url(/img/mobile/popular_categories/birds_food.png);
+        background-image: url(./img/mobile/popular_categories/birds_food.png);
     }
 
     .popular_categories__card_4{
-        background-image: url(/img/mobile/popular_categories/fish_food.png);
+        background-image: url(./img/mobile/popular_categories/fish_food.png);
     }
 
     .popular_categories__card_5{
         background-image: 
-            url(/img/mobile/popular_categories/toys_for_cats.png),
+            url(./img/mobile/popular_categories/toys_for_cats.png),
             linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
         display: block;
         position: relative;
@@ -1267,7 +1267,7 @@ header{
     }
 
     .social_block__logo{
-        background-image: url(/img/mobile/logo/bottom\ logo.png);
+        background-image: url(./img/mobile/logo/bottom\ logo.png);
         width: 168px;
         height: 122px;
     }
