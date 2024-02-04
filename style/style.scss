@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'TT Firs';
     src: local('TT Firs Bold'), local('TT-Firs-Bold'),
-        url('./fonts/TTFirs-Bold.woff2') format('woff2'),
+        url('../fonts/TTFirs-Bold.woff2') format('woff2'),
 
         local('TT Firs Extra Bold'), local('TT-Firs-Extra-Bold'),
-        url('./fonts/TTFirs-ExtraBold.woff2') format('woff2'),
+        url('../fonts/TTFirs-ExtraBold.woff2') format('woff2'),
 
         local('TT Firs Medium'), local('TT-Firs-Medium'),
-        url('./fonts/TTFirs-Medium.woff2') format('woff2'),
+        url('../fonts/TTFirs-Medium.woff2') format('woff2'),
 
         local('TT Firs Regular'), local('TT-Firs-Regular'),
-        url('./fonts/TTFirs-Regular.woff2') format('woff2');
+        url('../fonts/TTFirs-Regular.woff2') format('woff2');
     font-weight: 800, 700, 500, 400;
     font-style: normal;
 }
@@ -257,7 +257,7 @@ header{
 }
 
 .banner_slider{
-    background-image: url('./img/main_page_slider/Rectangle 4.png');
+    background-image: url('../img/main_page_slider/Rectangle 4.png');
     width: 78%;
     height: 368px;
     background-size: cover;
