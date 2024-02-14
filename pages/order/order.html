@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EUROZOO</title>
+    <link rel="stylesheet" href="../../pages/order/style/order.css">
     <link rel="stylesheet" href="../../style/style.css">
 </head>
 <body>
@@ -33,8 +34,6 @@
                 <span>Порівняти</span> 
             </div>
         </div>
-    </header>
-    <main>
         <div class="top_bar__container">
             <div class="top_bar">
                 <div class="logo">
@@ -62,12 +61,223 @@
                 <img src="../../img/icons/cart.png" alt="cart">
             </div>
         </div>
-        <div class="path_tothe_card__container">
-            <div class="path_tothe_card__content">
-                <span>Головна</span>
-                <img src="../../img/prod_card/icons/path_tothe_card_arrow_right.png" alt="path_tothe_card_arrow_right">
-                <span>Оформлення замовлення</span>
-                <img src="../../img/prod_card/icons/path_tothe_card_arrow_right.png" alt="path_tothe_card_arrow_right">
+        <div class="top_bar_mobile__container">
+            <div class="logo">
+                <img src="../../img/mobile/logo/EUROZOO Sign Slogan_LOGO.png" alt="EUROZOO Sign Slogan_LOGO">
+            </div>
+            <div class="mobile_nav__container">
+                <div class="mobile_nav__content">
+                    <img src="../../img/mobile/icons/menu.png" alt="menu">
+                    <img src="../../img/mobile/icons/line.png" alt="line">
+                    <img src="../../img/mobile/icons/call.png" alt="call">
+                    <img src="../../img/mobile/icons/line.png" alt="line">
+                    <img src="../../img/mobile/icons/user.png" alt="user">
+                    <img src="../../img/mobile/icons/line.png" alt="line">
+                    <img src="../../img/mobile/icons/cart.png" alt="cart">
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Я шукаю...">
+                    <div class="search_circle">
+                        <img src="../../img/icons/search_icon.png" alt="search_icon">
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="nav_2__container">
+            <ul>
+                <li>
+                    <span>Головна</span> 
+                </li>
+                <li>
+                    <img src="../../img/icons/solar_fire.png" alt="solar_fire">
+                    <span>Акції</span> 
+                </li>
+                <li>
+                    <span>Котам</span>
+                    <img src="../../img/icons/keyboard-arrow-down.png" alt="keyboard-arrow-down"> 
+                </li>
+                <li>
+                    <span>Собакам</span>
+                </li>
+                <li>
+                    <span>Птахам</span>
+                    <img src="../../img/icons/keyboard-arrow-down.png" alt="keyboard-arrow-down">
+                </li>
+                <li>
+                    <span>Гризунам</span>
+                    <img src="../../img/icons/keyboard-arrow-down.png" alt="keyboard-arrow-down">
+                </li>
+                <li>
+                    <span>Рибам</span>
+                    <img src="../../img/icons/keyboard-arrow-down.png" alt="keyboard-arrow-down">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="path_tothe_card__container">
+                <div class="path_tothe_card__content">
+                    <span>Головна</span>
+                    <img src="../../img/prod_card/icons/path_tothe_card_BOLD_arrow_right.png" alt="path_tothe_card_arrow_right">
+                    <span>Оформлення замовлення</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="recipient_data___order___payment_options____container">
+                <div class="recipient_data__container">
+                    <div class="recipient_data__content">
+                        <div class="recipient_data__text_header">Дані отримувача</div>
+                        <div class="recipient_data__checkbox__container">
+                            <div class="phys_person">
+                                <input type="checkbox" name="" id="phys_person__checkbox">
+                                <label for="phys_person__checkbox" class="phys_person__label"></label>
+                                <span>Фіз. особа</span>
+                            </div>
+                            <div class="yur_person">
+                                <input type="checkbox" name="" id="yur_person__checkbox">
+                                <label for="yur_person__checkbox" class="yur_person__label"></label>
+                                <span>Юр. особа</span>
+                            </div>
+                        </div>
+                        <div class="personal_info__container">
+                            <div class="personal_info__content">
+                                <input type="text" name="" id="" placeholder="Ім’я">
+                                <input type="text" name="" id="" placeholder="Призвіще">
+                                <input type="text" name="" id="" placeholder="+38(0_ _)_ _-_ _-_ _ _">
+                                <input type="email" name="" id="" placeholder="E-mail">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order__container">
+                    <div class="order__content">
+                        <div class="order__text_header">
+                            <div class="order__text_header__left_block">Замовлення</div>
+                            <div class="order__text_header__right_block">
+                                <span>Ваше місто </span>
+                                <a href="#">
+                                    <span>Киів</span>
+                                    <img src="../../img/order_page/icon/order_page__arrow_down.png" alt="order_page__arrow_down">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="order__main_block__container">
+                            <div class="order__main_block__delivery_description">
+                                <div class="self_pickup">
+                                    <div>
+                                        <input type="checkbox" name="" id="self_pickup__checkbox">
+                                        <label for="self_pickup__checkbox" class="order__self_pickup___label"></label>
+                                    </div>
+                                    <span>Самовивіз у магазині EuroZoo</span>
+                                    <span class="delivery_price">безкоштовно</span>
+                                </div>
+                                <div class="branch_nova_poshta">
+                                    <div>
+                                        <input type="checkbox" name="" id="branch_nova_poshta__checkbox">
+                                        <label for="branch_nova_poshta__checkbox" class="order__branch_nova_poshta___label"></label>
+                                    </div>
+                                    <img src="../../img/order_page/icon/delivery/Nova_Poshta__icon.png" alt="Nova_Poshta__icon">
+                                    <span>У відділення Нової Пошти</span>
+                                    <span class="delivery_price">від 75 грн</span>
+                                </div>
+                                <div class="post_machine__nova_poshta">
+                                    <div>
+                                        <input type="checkbox" name="" id="post_machine__nova_poshta__checkbox">
+                                        <label for="post_machine__nova_poshta__checkbox" class="order__post_machine__nova_poshta___label"></label>
+                                    </div>
+                                    <img src="../../img/order_page/icon/delivery/Nova_Poshta__icon.png" alt="Nova_Poshta__icon">
+                                    <span>У поштомат Нової Пошти</span>
+                                    <span class="delivery_price">від 75 грн</span>
+                                </div>
+                                <div class="branch_ukrposhta">
+                                    <div>
+                                        <input type="checkbox" name="" id="branch_ukrposhta__checkbox">
+                                        <label for="branch_ukrposhta__checkbox" class="order__branch_ukrposhta___label"></label>
+                                    </div>
+                                    <img src="../../img/order_page/icon/delivery/Ukrposhta__icon.png" alt="Ukrposhta__icon">
+                                    <span>У відділення Укрпошти</span>
+                                    <span class="delivery_price">за тарифами перевізника</span>
+                                </div>
+                                <div class="eurozoo_courier">
+                                    <div>
+                                        <input type="checkbox" name="" id="eurozoo_courier__checkbox">
+                                        <label for="eurozoo_courier__checkbox" class="order__eurozoo_courier___label"></label>
+                                    </div>
+                                    <span>Кур'єром EuroZoo за адресою</span>
+                                    <span class="delivery_price">від 115 грн</span>
+                                </div>
+                            </div>
+                            <div class="order_block__shops_ofThe_selected_city">
+                                <div class="shops_ofThe_selected_city__text_header">
+                                    <span>Магазини міста</span>
+                                    <a href="#">
+                                        <span>Київ</span>
+                                        <img src="../../img/order_page/icon/order_page__arrow_down.png" alt="order_page__arrow_down">
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <span>вул. Івана Пулюя, 8 (NOVUS)</span>
+                                            <span>10:00-18:30</span>
+                                        </li>
+                                        <li>
+                                            <span>«Новус», Броварський 18Д</span>
+                                            <span>10:00-17:30</span>
+                                        </li>
+                                        <li>
+                                            <span>«Ашан», Сосніних, 17</span>
+                                            <span>10:00-17:30</span>
+                                        </li>
+                                        <li>
+                                            <span>«Променада Парк», Кільцева дорога,4</span>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span>«Новус» вул. Здолбунівська, 7Г</span>
+                                            <span>11:00-18:00</span>
+                                        </li>
+                                        <li>
+                                            <span>«Ашан», вулиця Академіка Вільямса, 6а</span>
+                                            <span>09:00-17:30</span>
+                                        </li>
+                                        <li>
+                                            <span>«Сільпо», вул. Інженерна, 1; м. Видубичі</span>
+                                            <span>10:00-17:30</span>
+                                        </li>
+                                        <li>
+                                            <span>“АртМол» вул. Академіка Заболотного, 37</span>
+                                            <span>11:00-18:00</span>
+                                        </li>
+                                        <li>
+                                            <span>вул. Боголюбова, 42 - Софіївська Борщагівка</span>
+                                            <span>11:00-19:00</span>
+                                        </li>
+                                        <li>
+                                            <span>Шалімова 69А, Софіївська Борщагівка</span>
+                                            <span>10:00-17:30</span>
+                                        </li>
+                                        <li>
+                                            <span>вул. Березняківська,31</span>
+                                            <span>10:00-17:30</span>
+                                        </li>
+                                        <li>
+                                            <span>Мішуги 9A</span>
+                                            <span>10:00-17:30</span>
+                                        </li>
+                                        <li>
+                                            <span>вулиця Бориса Гмирі, 10/40</span>
+                                            <span>11:00-18:00</span>
+                                        </li>
+                                    </ul>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+</body>
+</html>
+
