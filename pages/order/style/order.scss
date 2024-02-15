@@ -52,41 +52,41 @@
 
 .phys_person, .yur_person {
     display: inline-block;
-    font-family: Arial, sans-serif;
     position: relative;
     display: flex;
     align-items: center;
     
   }
   
-  #phys_person__checkbox, #yur_person__checkbox{
+  #phys_person__checkbox, #yur_person__checkbox, #self_pickup__checkbox, #branch_nova_poshta__checkbox, #post_machine__nova_poshta__checkbox, #branch_ukrposhta__checkbox, #eurozoo_courier__checkbox{
     display: none;
   }
   
-  .phys_person__label, .yur_person__label {
+  .phys_person__label, .yur_person__label, .order__self_pickup___label, .order__branch_nova_poshta___label, .order__post_machine__nova_poshta___label, .order__branch_ukrposhta___label, .order__eurozoo_courier___label {
     display: inline-block;
     width: 20px;
     height: 20px;
     background-color: #fff;
     border: 1px solid rgb(210, 210, 210);
     border-radius: 4px;
+    cursor: pointer;
   }
   
-  #phys_person__checkbox:checked + .phys_person__label, #yur_person__checkbox:checked + .yur_person__label{
+  #phys_person__checkbox:checked + .phys_person__label, #yur_person__checkbox:checked + .yur_person__label, #self_pickup__checkbox:checked + .order__self_pickup___label, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label{
     background-color: rgb(255, 125, 1);
     border: none;
   }
   
-  .phys_person__label::after, .yur_person__label::after {
+  .phys_person__label::after, .yur_person__label::after, .order__self_pickup___label::after, .order__branch_nova_poshta___label::after, .order__post_machine__nova_poshta___label::after, .order__branch_ukrposhta___label::after, .order__eurozoo_courier___label::after {
     content: url(../../../img/order_page/icon/checked.png);
     color: #fff;
     position: absolute;
-    top: 0;
+    top: -3px;
     left: 5.25px;
     display: none;
   }
   
-  #phys_person__checkbox:checked + .phys_person__label::after, #yur_person__checkbox:checked + .yur_person__label::after {
+  #phys_person__checkbox:checked + .phys_person__label::after, #yur_person__checkbox:checked + .yur_person__label::after, #self_pickup__checkbox:checked + .order__self_pickup___label::after, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label::after, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label::after, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label::after, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label::after {
     display: block;
   }
   
@@ -134,15 +134,15 @@
     }
 
     a{
-        display: flex;
-        align-items: center;
-        gap: 6px;
-
         span{
             color: rgb(29, 29, 29);
             font-size: 16px;
             font-weight: 700;
             text-decoration: underline;
+        }
+
+        img{
+            margin-left: 6px;
         }
     }
 }
@@ -158,7 +158,11 @@
 
 .order__main_block__delivery_description{
     width: 440px;
-    height: 153px;
+    height: 166.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .self_pickup{
@@ -169,6 +173,7 @@
     gap: 10px;
 
     div{
+        position: relative;
         display: flex;
         align-items: center;
     }
@@ -180,10 +185,106 @@
     }
 
     .delivery_price{
-        width: 127px;
+        width: 133px;
         font-size: 12px;
         font-weight: 700;
         color: rgb(255, 125, 1);
         text-align: end;
     }
+}
+
+.branch_nova_poshta, .post_machine__nova_poshta, .branch_ukrposhta, .eurozoo_courier{
+    display: flex;
+    width: 440px;
+    height: 21px;
+    align-items: center;
+    gap: 10px;
+
+    div{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    span{
+        font-size: 16px;
+        font-weight: 500;
+        width: 273px;
+    }
+
+    .delivery_price{
+        width: 127px;
+        font-size: 12px;
+        font-weight: 300;
+        text-align: end;
+    }
+}
+
+.branch_ukrposhta .delivery_price{
+    width: 160px;
+}
+
+.eurozoo_courier .delivery_price{
+    width: 134px;
+}
+
+.order_block__shops_ofThe_selected_city{
+    margin-top: 14.5px;
+    width: 440px;
+    height: 261px;
+}
+
+.shops_ofThe_selected_city__text_header{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    span{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    a{
+        span{
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(29, 29, 29);
+            text-decoration: underline;
+        }
+        
+        img{
+            margin-left: 3px;
+        }
+    }
+}
+
+.list_of_shops{
+    margin-top: 10px;
+
+    li{
+        display: flex;
+        line-height: 18px;
+    }
+}
+
+.list_of_shops span:first-child{
+    width: 324px;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.list_of_shops span:last-child{
+    width: 80px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+    justify-content: flex-end;
+    margin-left: 36px;
+}
+
+.list_of_shops li::before{
+    content: "\2022";
+    margin-left: 6px;
+    margin-right: 7px;
 }
