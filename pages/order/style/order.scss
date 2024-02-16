@@ -58,11 +58,11 @@
     
   }
   
-  #phys_person__checkbox, #yur_person__checkbox, #self_pickup__checkbox, #branch_nova_poshta__checkbox, #post_machine__nova_poshta__checkbox, #branch_ukrposhta__checkbox, #eurozoo_courier__checkbox{
+  #phys_person__checkbox, #yur_person__checkbox, #self_pickup__checkbox, #branch_nova_poshta__checkbox, #post_machine__nova_poshta__checkbox, #branch_ukrposhta__checkbox, #eurozoo_courier__checkbox, #cash_on_delivery__checkbox, #card_on_delivery__checkbox, #privat_24__checkbox, #visa_mastercard__checkbox, #liq_pay__checkbox, #cashless_payments__checkbox, #bonuses__checkbox{
     display: none;
   }
   
-  .phys_person__label, .yur_person__label, .order__self_pickup___label, .order__branch_nova_poshta___label, .order__post_machine__nova_poshta___label, .order__branch_ukrposhta___label, .order__eurozoo_courier___label {
+  .phys_person__label, .yur_person__label, .order__self_pickup___label, .order__branch_nova_poshta___label, .order__post_machine__nova_poshta___label, .order__branch_ukrposhta___label, .order__eurozoo_courier___label, .cash_on_delivery__label, .card_on_delivery__label, .privat_24__label, .visa_mastercard__label, .liq_pay__label, .cashless_payments__label, .bonuses__label {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -72,21 +72,21 @@
     cursor: pointer;
   }
   
-  #phys_person__checkbox:checked + .phys_person__label, #yur_person__checkbox:checked + .yur_person__label, #self_pickup__checkbox:checked + .order__self_pickup___label, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label{
+  #phys_person__checkbox:checked + .phys_person__label, #yur_person__checkbox:checked + .yur_person__label, #self_pickup__checkbox:checked + .order__self_pickup___label, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label, #cash_on_delivery__checkbox:checked + .cash_on_delivery__label, #card_on_delivery__checkbox:checked + .card_on_delivery__label, #privat_24__checkbox:checked + .privat_24__label, #visa_mastercard__checkbox:checked + .visa_mastercard__label, #liq_pay__checkbox:checked + .liq_pay__label, #cashless_payments__checkbox:checked + .cashless_payments__label, #bonuses__checkbox:checked + .bonuses__label{
     background-color: rgb(255, 125, 1);
     border: none;
   }
   
-  .phys_person__label::after, .yur_person__label::after, .order__self_pickup___label::after, .order__branch_nova_poshta___label::after, .order__post_machine__nova_poshta___label::after, .order__branch_ukrposhta___label::after, .order__eurozoo_courier___label::after {
+  .phys_person__label::after, .yur_person__label::after, .order__self_pickup___label::after, .order__branch_nova_poshta___label::after, .order__post_machine__nova_poshta___label::after, .order__branch_ukrposhta___label::after, .order__eurozoo_courier___label::after, .cash_on_delivery__label::after, .card_on_delivery__label::after, .privat_24__label::after, .visa_mastercard__label::after, .liq_pay__label::after, .cashless_payments__label::after, .bonuses__label::after {
     content: url(../../../img/order_page/icon/checked.png);
     color: #fff;
     position: absolute;
     top: -3px;
     left: 5.25px;
-    display: none;
+    //display: none;
   }
   
-  #phys_person__checkbox:checked + .phys_person__label::after, #yur_person__checkbox:checked + .yur_person__label::after, #self_pickup__checkbox:checked + .order__self_pickup___label::after, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label::after, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label::after, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label::after, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label::after {
+  #phys_person__checkbox:checked + .phys_person__label::after, #yur_person__checkbox:checked + .yur_person__label::after, #self_pickup__checkbox:checked + .order__self_pickup___label::after, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label::after, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label::after, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label::after, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label::after, #cash_on_delivery__checkbox:checked + .cash_on_delivery__label::after, #card_on_delivery__checkbox:checked + .card_on_delivery__label::after, #privat_24__checkbox:checked + .privat_24__label::after, #visa_mastercard__checkbox:checked + .visa_mastercard__label::after, #liq_pay__checkbox:checked + .liq_pay__label::after, #cashless_payments__checkbox:checked + .cash_on_delivery__label::after, #bonuses__checkbox:checked + .bonuses__label::after  {
     display: block;
   }
   
@@ -116,7 +116,7 @@
     gap: 10px;
 }
 
-.order__text_header__left_block{
+.order__text_header__left_block, .payment_options__text_header{
     width: 327px;
     font-size: 22px;
     font-weight: 700;
@@ -221,7 +221,7 @@
 }
 
 .branch_ukrposhta .delivery_price{
-    width: 160px;
+    width: 165px;
 }
 
 .eurozoo_courier .delivery_price{
@@ -287,4 +287,154 @@
     content: "\2022";
     margin-left: 6px;
     margin-right: 7px;
+}
+
+.payment_options__main_block__content{
+    width: 380px;
+    height: 534px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.payment_options__main_block__text_header{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    height: 39px;
+}
+
+.payment_options__main_block__text_header__left_block, .payment_options__main_block__text_header__right_block{
+    width: 160px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 6px;
+    justify-content: center;
+
+    span{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    img:last-child{
+        position: absolute;
+        top: 36px;
+        left: 40px;
+    }
+}
+
+.payement_options__description{
+    margin-top: 12.5px;
+
+    ul{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        list-style: none;
+    }
+
+    li{
+        margin-left: 5px;
+    }
+}
+
+.payement_options__description li::before{
+    content: "•";
+    margin-right: 5px;
+}
+
+.type_of_payement{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cash_on_delivery, .card_on_delivery, .privat_24, .visa_mastercard, .liq_pay, .cashless_payments{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.promo_code{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    span{
+        width: 170px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    input{
+        width: 160px;
+        height: 49px;
+        box-sizing: border-box;
+        border: 1px solid rgb(210, 210, 210);
+        border-radius: 100px;
+        background: rgb(255, 255, 255);
+        padding: 19px 18px 19px 18px;
+        text-align: center;
+    }
+}
+
+.use_bonuses{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.use_bonuses__left_block{
+    width: 160px;
+    height: 62px;
+
+    span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.bonuses_check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.bonuses_check__left_block{
+    position: relative;
+}
+
+.bonuses_check__right_block{
+    display: flex;
+    flex-direction: column;
+
+    span:first-child{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    span:last-child{
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(255, 125, 1);
+    }
+}
+
+.use_bonuses__right_block{
+    input{
+        width: 161px;
+        height: 49px;
+        padding: 19px 18px 19px 18px;
+        box-sizing: border-box;
+        border: 1px solid rgb(210, 210, 210);
+        border-radius: 100px;
+        background: rgb(255, 255, 255);
+    }
 }
