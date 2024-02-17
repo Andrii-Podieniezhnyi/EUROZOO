@@ -58,11 +58,11 @@
     
   }
   
-  #phys_person__checkbox, #yur_person__checkbox, #self_pickup__checkbox, #branch_nova_poshta__checkbox, #post_machine__nova_poshta__checkbox, #branch_ukrposhta__checkbox, #eurozoo_courier__checkbox, #cash_on_delivery__checkbox, #card_on_delivery__checkbox, #privat_24__checkbox, #visa_mastercard__checkbox, #liq_pay__checkbox, #cashless_payments__checkbox, #bonuses__checkbox{
+  #phys_person__checkbox, #yur_person__checkbox, #self_pickup__checkbox, #branch_nova_poshta__checkbox, #post_machine__nova_poshta__checkbox, #branch_ukrposhta__checkbox, #eurozoo_courier__checkbox, #cash_on_delivery__checkbox, #card_on_delivery__checkbox, #privat_24__checkbox, #visa_mastercard__checkbox, #liq_pay__checkbox, #cashless_payments__checkbox, #bonuses__checkbox, #cart_items__bottom_section__call_me__checkbox, #cart_items__bottom_section__dont_call_back__checkbox{
     display: none;
   }
   
-  .phys_person__label, .yur_person__label, .order__self_pickup___label, .order__branch_nova_poshta___label, .order__post_machine__nova_poshta___label, .order__branch_ukrposhta___label, .order__eurozoo_courier___label, .cash_on_delivery__label, .card_on_delivery__label, .privat_24__label, .visa_mastercard__label, .liq_pay__label, .cashless_payments__label, .bonuses__label {
+  .phys_person__label, .yur_person__label, .order__self_pickup___label, .order__branch_nova_poshta___label, .order__post_machine__nova_poshta___label, .order__branch_ukrposhta___label, .order__eurozoo_courier___label, .cash_on_delivery__label, .card_on_delivery__label, .privat_24__label, .visa_mastercard__label, .liq_pay__label, .cashless_payments__label, .bonuses__label, .cart_items__bottom_section__call_me__label, .cart_items__bottom_section__dont_call_back__label {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -72,12 +72,12 @@
     cursor: pointer;
   }
   
-  #phys_person__checkbox:checked + .phys_person__label, #yur_person__checkbox:checked + .yur_person__label, #self_pickup__checkbox:checked + .order__self_pickup___label, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label, #cash_on_delivery__checkbox:checked + .cash_on_delivery__label, #card_on_delivery__checkbox:checked + .card_on_delivery__label, #privat_24__checkbox:checked + .privat_24__label, #visa_mastercard__checkbox:checked + .visa_mastercard__label, #liq_pay__checkbox:checked + .liq_pay__label, #cashless_payments__checkbox:checked + .cashless_payments__label, #bonuses__checkbox:checked + .bonuses__label{
+  #phys_person__checkbox:checked + .phys_person__label, #yur_person__checkbox:checked + .yur_person__label, #self_pickup__checkbox:checked + .order__self_pickup___label, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label, #cash_on_delivery__checkbox:checked + .cash_on_delivery__label, #card_on_delivery__checkbox:checked + .card_on_delivery__label, #privat_24__checkbox:checked + .privat_24__label, #visa_mastercard__checkbox:checked + .visa_mastercard__label, #liq_pay__checkbox:checked + .liq_pay__label, #cashless_payments__checkbox:checked + .cashless_payments__label, #bonuses__checkbox:checked + .bonuses__label, #cart_items__bottom_section__call_me__checkbox:checked + .cart_items__bottom_section__call_me__label, #cart_items__bottom_section__dont_call_back__checkbox:checked + .cart_items__bottom_section__dont_call_back__label{
     background-color: rgb(255, 125, 1);
     border: none;
   }
   
-  .phys_person__label::after, .yur_person__label::after, .order__self_pickup___label::after, .order__branch_nova_poshta___label::after, .order__post_machine__nova_poshta___label::after, .order__branch_ukrposhta___label::after, .order__eurozoo_courier___label::after, .cash_on_delivery__label::after, .card_on_delivery__label::after, .privat_24__label::after, .visa_mastercard__label::after, .liq_pay__label::after, .cashless_payments__label::after, .bonuses__label::after {
+  .phys_person__label::after, .yur_person__label::after, .order__self_pickup___label::after, .order__branch_nova_poshta___label::after, .order__post_machine__nova_poshta___label::after, .order__branch_ukrposhta___label::after, .order__eurozoo_courier___label::after, .cash_on_delivery__label::after, .card_on_delivery__label::after, .privat_24__label::after, .visa_mastercard__label::after, .liq_pay__label::after, .cashless_payments__label::after, .bonuses__label::after, .cart_items__bottom_section__call_me__label::after, .cart_items__bottom_section__dont_call_back__label::after {
     content: url(../../../img/order_page/icon/checked.png);
     color: #fff;
     position: absolute;
@@ -86,7 +86,7 @@
     //display: none;
   }
   
-  #phys_person__checkbox:checked + .phys_person__label::after, #yur_person__checkbox:checked + .yur_person__label::after, #self_pickup__checkbox:checked + .order__self_pickup___label::after, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label::after, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label::after, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label::after, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label::after, #cash_on_delivery__checkbox:checked + .cash_on_delivery__label::after, #card_on_delivery__checkbox:checked + .card_on_delivery__label::after, #privat_24__checkbox:checked + .privat_24__label::after, #visa_mastercard__checkbox:checked + .visa_mastercard__label::after, #liq_pay__checkbox:checked + .liq_pay__label::after, #cashless_payments__checkbox:checked + .cash_on_delivery__label::after, #bonuses__checkbox:checked + .bonuses__label::after  {
+  #phys_person__checkbox:checked + .phys_person__label::after, #yur_person__checkbox:checked + .yur_person__label::after, #self_pickup__checkbox:checked + .order__self_pickup___label::after, #branch_nova_poshta__checkbox:checked + .order__branch_nova_poshta___label::after, #post_machine__nova_poshta__checkbox:checked + .order__post_machine__nova_poshta___label::after, #branch_ukrposhta__checkbox:checked + .order__branch_ukrposhta___label::after, #eurozoo_courier__checkbox:checked + .order__eurozoo_courier___label::after, #cash_on_delivery__checkbox:checked + .cash_on_delivery__label::after, #card_on_delivery__checkbox:checked + .card_on_delivery__label::after, #privat_24__checkbox:checked + .privat_24__label::after, #visa_mastercard__checkbox:checked + .visa_mastercard__label::after, #liq_pay__checkbox:checked + .liq_pay__label::after, #cashless_payments__checkbox:checked + .cash_on_delivery__label::after, #bonuses__checkbox:checked + .bonuses__label::after, #cart_items__bottom_section__call_me__checkbox:checked + .cart_items__bottom_section__call_me__label::after, #cart_items__bottom_section__dont_call_back__checkbox:checked + .cart_items__bottom_section__dont_call_back__label::after  {
     display: block;
   }
   
@@ -176,12 +176,6 @@
         position: relative;
         display: flex;
         align-items: center;
-    }
-
-    span{
-        font-size: 16px;
-        font-weight: 500;
-        width: 273px;
     }
 
     .delivery_price{
@@ -438,3 +432,403 @@
         background: rgb(255, 255, 255);
     }
 }
+
+.products_inThe_cart__container{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.products_inThe_cart__content{
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    height: 330px;
+}
+
+.products_inThe_cart__text_header{
+    display: flex;
+    gap: 569px;
+}
+
+.products_inThe_cart__text_header__left_block{
+    width: 254px;
+
+    span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.products_inThe_cart__text_header__right_block{
+    display: flex;
+    gap: 32px;
+    height: 21px;
+}
+
+.continue_shopping{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    
+    span{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(255, 125, 1);
+    }
+}
+
+.clear_shopping_cart{
+    display: flex;
+    align-items: center;
+    gap: 9.75px;
+    
+    span{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(113, 113, 113);
+        height: 21px;
+    }
+
+    img{
+        width: 10.5px;
+        height: 10.5px;
+    }
+}
+
+.cart_items__main_block{
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 12px;
+    margin-top: 12px;
+    padding: 16px 16px 21px 16px;
+}
+
+.cart_items__nav_header{
+    display: flex;
+    height: 32px;
+    gap: 300px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.cart_items__nav_header__left_block{
+    width: 254px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart_items__nav_header__right_block{
+    display: flex;
+    gap: 50px;
+}
+
+.cart_items__nav_header__right_block span:first-child{
+    width: 180px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cart_items__nav_header__right_block span:nth-child(2), .cart_items__nav_header__right_block span:last-child{
+    font-size: 14px;
+    font-weight: 400;
+    width: 110px;
+    text-align: center;
+}
+
+.cards_of_cart_items__container{
+    margin-top: 14px;
+}
+
+.card_of_cart_items{
+    display: flex;
+    align-items: center;
+}
+
+.card_of_cart_items__img_container{
+    width: 110px;
+    height: 110px;
+    box-sizing: border-box;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 8px;
+}
+
+.card_of_cart_items__description_block{
+    margin-left: 16px;
+    width: 383px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 21.5px;
+}
+
+.card_of_cart_items__text_header{
+    color: rgb(29, 29, 29);
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.card_of_cart_items__description{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card_of_cart_items__description__veight{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card_of_cart_items__article_and_card_stars__block{
+    margin-top: 20px;
+    display: flex;
+    gap: 8.75px;
+}
+
+.card_of_cart_items__article{
+    font-size: 14px;
+    font-weight: 400;
+    width: 229px;
+}
+
+.card_of_cart_items__stars{
+    a{
+        color: rgb(255, 125, 1);
+        font-family: TT Firs;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+}
+
+.card_of_cart_items__counter{
+    width: 180px;
+    height: 59px;
+    box-sizing: border-box;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 24.5px;
+    margin-right: 25.5px;
+
+    img:first-child{
+        cursor: pointer;
+    }
+
+    img:last-child{
+        cursor: pointer;
+    }
+}
+
+.purchase_bonus{
+    width: 110px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24.5px;
+    margin-right: 25.5px;
+
+    span:first-child{
+        font-size: 22px;
+        font-weight: 700;
+        color: rgb(255, 125, 1);
+    }
+
+    span:last-child{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.total_price{
+    width: 110px;
+    height: 29px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 24.5px;
+    margin-right: 25.5px;
+}
+
+.card_of_cart_items__delete_item{
+    margin-left: 22.5px;
+    display: flex;
+}
+
+.cart_items__bottom_section_container{
+    display: flex;
+    margin-top: 12px;
+    gap: 82px;
+}
+
+.cart_items__bottom_section__left_block{
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+}
+
+.cart_items__bottom_section__left_block__cart_items__call_me{
+    width: 166px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 19px;
+    position: relative;
+
+    span{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.cart_items__bottom_section__left_block__cart_items__dont_call_back{
+    width: 378px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+    span{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    a{
+        span{
+            font-size: 12px;
+            font-weight: 300;
+            color: rgb(29, 29, 29);
+            text-decoration: underline;
+        }
+    }
+}
+
+.cart_items__bottom_section__right_block{
+    display: flex;
+    gap: 20px;
+}
+
+.total_amount{
+    width: 215px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: end;
+    margin-top: 15px;
+}
+
+.make_order__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+    a{
+        width: 280px;
+        height: 59px;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 125, 1);
+        border-radius: 100px;
+        background: rgb(255, 125, 1);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span{
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    span{
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+        width: 280px;
+        height: 28px;
+    }
+}
+
+.viewed_products__container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.viewed_products__content{
+    width: 1180px;
+}
+
+.viewed_products__text_header{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.viewed_products__prod_cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1240px){
+
+    .order__container, .payment_options__container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .order__content, .payment_options__content{
+        width: 95%;
+    }
+
+    .order__text_header{
+        width: 99%;
+        justify-content: space-between;
+    }
+
+    .order__text_header__left_block, .order__main_block__container, .order__main_block__delivery_description, .order_block__shops_ofThe_selected_city, .list_of_shops span, .payment_options__text_header, .payment_options__main_block__content{
+        width: auto;
+    }
+
+    .order__text_header__right_block{
+        width: 135px;
+    }
+
+    .self_pickup, .branch_nova_poshta, .post_machine__nova_poshta, .branch_ukrposhta, .eurozoo_courier{
+        width: auto;
+
+        span:last-child{
+            width: auto;
+            margin-left: auto;
+            font-size: 10px;
+        }
+    }
+
+    .self_pickup, .branch_nova_poshta span, .branch_ukrposhta span, .eurozoo_courier span, .post_machine__nova_poshta span {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .list_of_shops{
+
+        span:first-child{
+            font-size: 11px;
+            width: auto;
+        }
+
+        span:last-child{
+            margin-left: auto;
+            width: auto;
+        }
+    } 
+}
+
