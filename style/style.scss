@@ -387,6 +387,7 @@ a{
     align-items: center;
     gap: 8px;
     margin-top: 13px;
+    margin-left: 20px;
 }
 
 .article{
@@ -422,6 +423,7 @@ a{
     font-weight: 700;
     line-height: normal;
     margin-top: 13px;
+    margin-left: 20px;
 }
 
 .card_description{
@@ -432,6 +434,7 @@ a{
     font-weight: 400;
     line-height: normal;
     margin-top: 10px;
+    margin-left: 20px;
 }
 
 .buy_and_price__container{
@@ -439,6 +442,7 @@ a{
     display: inline-flex;
     align-items: center;
     gap: 12px;
+    margin-left: 20px;
 }
 
 .buy{
@@ -1882,7 +1886,7 @@ a{
 
     .card_description{
         font-size: 16px;
-        margin-left: 15px;
+        margin-left: 20px;
         margin-right: 15px;
     }
 
@@ -1898,7 +1902,7 @@ a{
     }
 
     .card_title{
-        margin-left: 15px;
+        margin-left: 20px;
     }
 
     .buy_with_this_product___card_container .buy_and_price__container{
@@ -1906,8 +1910,4 @@ a{
         width: 305px;
         gap: 75px;
     }
-
-
-
-    
 } 
