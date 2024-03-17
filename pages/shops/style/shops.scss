@@ -152,3 +152,188 @@
     }
     
 }
+
+.reviews__content___right_block___img{
+    background-image: url(../../../img/shops_page/reviews_block.png);
+    width: 494px;
+    height: 464px;
+    float: right;
+    margin-left: 30px
+}
+
+.reviews__container{
+    display: flex;
+    justify-content: center;
+}
+
+.reviews__content{
+    width: 1180px;
+    height: 440px;
+    display: flex;
+    border-radius: 44px;
+    background: rgb(243, 145, 222);
+    margin-top: 70px;
+}
+
+.reviews__content___left_block{
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.reviews__content__text_header{
+    color: rgb(255, 255, 255);
+    font-size: 52px;
+}
+
+.reviews__content__text{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
+
+.reviews__content__button{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    width: 210px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+        color: rgb(243, 145, 222);
+        font-size: 16px;
+    }
+}
+
+.viewed_products__container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.viewed_products__content{
+    width: 1180px;
+}
+
+.viewed_products__text_header{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.viewed_products__prod_cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+@media (max-width: 1240px){
+
+    .shops_map__content{
+        width: 95%;
+    }
+
+    .shops_map__header{
+        flex-direction: column;
+        align-items: center;
+
+        span{
+            font-size: 42px;
+        }
+    }
+
+    .shops_map__header___span_block{
+
+        span{
+            font-size: 42px;
+        }
+    }
+
+    .shops_map__map_content{
+
+        img{
+            display: none;
+        }
+
+        background-image: url(../../../img/shops_page/map__mobile_screen.png);
+    }
+
+    .shops_map__map_content{
+        height: 360px;
+    }
+
+    .shops_cards__content{
+        width: 95%;
+    }
+
+    .shop_card{
+        width: 100%;
+    }
+
+    .reviews__content{
+        display: flex;
+        flex-direction: column;
+        height: 612px;
+        width: 95%;
+    }
+
+    .reviews__content___left_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 39.99px;
+        margin-left: 0;
+        position: relative;
+    }
+
+    .reviews__content__text_header{
+        font-size: 42px;
+        width: 285px;
+        height: 144px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .reviews__content__text{
+        font-size: 16px;
+        width: 207px;
+        height: 42px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .reviews__content___right_block___img{
+        background-image: url(../../../img/shops_page/reviews_block__mobile_screen.png);
+    }
+
+    .reviews__content__button{
+        position: absolute;
+        z-index: 1;
+        top: 474px;
+        width: 210px;
+        height: 59px;
+    }
+
+    .reviews__content___right_block{
+        position: relative;
+    }
+
+    .reviews__content___right_block___img{
+        position: absolute;
+        top: -301px;
+        width: 345px;
+        height: 612px;
+        margin-left: 0;
+    }
+
+    .viewed_products__content{
+        width: 95%;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
