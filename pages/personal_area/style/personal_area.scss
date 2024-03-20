@@ -1,0 +1,83 @@
+.my_eurozoo_block__and__my_orders_block___container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.my_eurozoo_block__header{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.path_tothe_card__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.path_tothe_card__content{
+    width: 1179px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 21px;
+
+    span{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    span:last-child{
+        font-weight: 700;
+    }
+}
+
+.my_eurozoo_block__user_area_section{
+    width: 380px;
+    height: 541px;
+    border-radius: 12px;
+    background: rgb(243, 243, 243);
+    margin-top: 20px;
+    padding: 24px;
+}
+
+.my_eurozoo_block__user_area__greetings_header {
+
+    span:first-child{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    span{
+        font-size: 19px;
+        font-weight: 700;
+    }
+}
+
+.my_eurozoo_block__user_area__options{
+    margin-top: 16px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        li:last-child{
+            margin-bottom: 20.5px;
+        }
+    }
+
+    a{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        span{
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(29, 29, 29);
+        }
+    }
+}
