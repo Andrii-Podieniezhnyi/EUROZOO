@@ -81,3 +81,94 @@
         }
     }
 }
+
+.my_eurozoo_block__user_bonus_account__container{
+    margin-top: 25.5px;
+}
+
+.my_eurozoo_block__user_bonus_account__header{
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+
+    span{
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+.my_eurozoo_block__user_bonus_account___on_account{
+    margin-top: 24px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span:first-child{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    span:last-child{
+        font-size: 32px;
+        font-weight: 800;
+        color: rgb(255, 125, 1);
+    }
+}
+
+.my_eurozoo_block__user_bonus_account___discount_percentage_block{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 11px;
+}
+
+.my_eurozoo_block__user_bonus_account___discount_percentage_value_and_line{
+    padding: 14px;
+}
+
+.my_eurozoo_block__user_bonus_account___discount_percentage_value{
+    display: flex;
+    gap: 112px;
+
+    span{
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(175, 175, 175);
+        width: 28px;
+        height: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    span:first-child{
+        color: rgb(29, 29, 29);
+    }
+}
+
+.my_eurozoo_block__user_bonus_account___discount_percentage_line{
+    width: 306px;
+    height: 11px;
+    border-radius: 100px;
+    background: rgb(243, 243, 243);
+    margin-top: 5px;
+}
+
+.progress{
+    width: 28px;
+    height: 11px;
+    display: block;
+    border-radius: 100px;
+    background: rgb(255, 125, 1);
+}
+
+.my_eurozoo_block__user_bonus_account___discount_percentage_description{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    line-height: 16px;
+
+    span{
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
