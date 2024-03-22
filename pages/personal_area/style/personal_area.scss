@@ -34,7 +34,7 @@
 
 .my_eurozoo_block__user_area_section{
     width: 380px;
-    height: 541px;
+    height: auto;
     border-radius: 12px;
     background: rgb(243, 243, 243);
     margin-top: 20px;
@@ -170,5 +170,26 @@
     span{
         font-size: 12px;
         font-weight: 300;
+    }
+}
+
+.exit_account__container{
+    border-top: 1px solid rgb(224, 224, 224);
+    margin-top: 20.5px;
+}
+
+.exit_account__content{
+    margin-top: 20.5px;
+
+    a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    span{
+        color: rgb(29, 29, 29);
+        font-size: 16px;
+        font-weight: 400;
     }
 }
