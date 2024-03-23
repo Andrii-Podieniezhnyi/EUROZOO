@@ -2,6 +2,7 @@
     margin-top: 32px;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .my_eurozoo_block__header{
@@ -191,5 +192,108 @@
         color: rgb(29, 29, 29);
         font-size: 16px;
         font-weight: 400;
+    }
+}
+
+.my_orders_block__header{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.my_orders_block__orders_area__container{
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 16px;
+}
+
+.my_orders_block__orders_area___navigation_header{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    margin-bottom: 13px;
+    gap: 25px;
+
+    td{
+        text-align: center;
+    }
+
+    td:nth-child(1){
+        width: 125px;
+    }
+
+    td:nth-child(2){
+        width: 80px;
+    }
+
+    td:nth-child(3){
+        width: 90px;
+    }
+
+    td:nth-child(4){
+        width: 110px;
+    }
+
+    td:nth-child(5){
+        width: 130px;
+    }
+}
+
+.order{
+    display: flex;
+    gap: 30px;
+    border-top: 1px solid rgb(210, 210, 210);
+
+    td{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    td:first-child{
+        width: 125px;
+    }
+
+    td:nth-child(2){
+        width: 80px;
+    }
+
+    td:nth-child(3){
+        width: 80px;
+    }
+
+    td:nth-child(4){
+        width: 110px;
+        font-weight: 700;
+    }
+
+    td:nth-child(5){
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 130px;
+    }
+
+    td:nth-child(6){
+        width: 61px;
+    }
+
+    .order_waiting{
+        color: rgb(255, 125, 1);
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    a{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        span{
+            font-size: 14px;
+            font-weight: 400;
+            color: rgb(29, 29, 29);
+        }
     }
 }
