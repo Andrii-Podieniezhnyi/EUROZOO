@@ -297,3 +297,25 @@
         }
     }
 }
+
+.viewed_products__container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.viewed_products__content{
+    width: 1180px;
+}
+
+.viewed_products__text_header{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.viewed_products__prod_cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
