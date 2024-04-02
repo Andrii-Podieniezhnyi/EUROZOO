@@ -145,4 +145,35 @@
     flex-direction: column;
     margin-top: 14px;
     gap: 4px;
+
+    span:nth-child(1){
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    span:nth-child(2){
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+.card__call_center__mail{
+    margin-top: 18px;
+
+    a{
+        color: rgb(29, 29, 29);
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+.card__call_center__work_schedule{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+
+    span{
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
