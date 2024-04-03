@@ -108,7 +108,7 @@
     margin-top: 20px;
 }
 
-.card__call_center{
+.card__call_center, .card__wholesale_purchases, .card__vacancies_and_cooperation{
     padding: 20px;
     width: 281.14px;
     box-sizing: border-box;
@@ -116,7 +116,15 @@
     border-radius: 12px;
 }
 
-.card__call_center__header{
+.card__wholesale_purchases{
+    border: 1px solid rgb(243, 145, 222);
+}
+
+.card__vacancies_and_cooperation{
+    border: 1px solid rgb(148, 247, 154);
+}
+
+.card__call_center__header, .card__wholesale_purchases__header, .card__vacancies_and_cooperation__header{
     display: flex;
     gap: 14px;
     align-items: center;
@@ -140,7 +148,19 @@
     }
 }
 
-.card__call_center__phone_number{
+.card__wholesale_purchases__header{
+    span{
+        color: rgb(243, 145, 222);
+    }
+}
+
+.card__vacancies_and_cooperation__header{
+    span{
+        color: rgb(69, 224, 88);
+    }
+}
+
+.card__call_center__phone_number, .card__wholesale_purchases__phone_number, .card__vacancies_and_cooperation__phone_number{
     display: flex;
     flex-direction: column;
     margin-top: 14px;
@@ -157,7 +177,7 @@
     }
 }
 
-.card__call_center__mail{
+.card__call_center__mail, .card__wholesale_purchases__mail, .card__vacancies_and_cooperation__mail{
     margin-top: 18px;
 
     a{
@@ -167,7 +187,7 @@
     }
 }
 
-.card__call_center__work_schedule{
+.card__call_center__work_schedule, .card__wholesale_purchases__work_schedule, .card__vacancies_and_cooperation__work_schedule{
     margin-top: 18px;
     display: flex;
     flex-direction: column;
@@ -176,4 +196,127 @@
         font-size: 16px;
         font-weight: 400;
     }
+}
+
+.contacts__main_block__main_content__left_block___cards_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.reviews_container{
+    margin-top: 33px;
+}
+
+.reviews___header{
+    display: flex;
+    width: 880px;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        color: rgb(29, 29, 29);
+        font-family: TT Firs;
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+
+.reviews___slider_btns{
+    display: flex;
+    gap: 13.13px;
+
+    a{
+        width: 36.86px;
+        height: 36.86px;
+        box-sizing: border-box;
+        border: 1.19px solid rgb(255,125,1);
+        background: rgb(255,255,255);
+        display: flex;
+        border-radius: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.review_cards__container{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.review_card{
+    display: flex;
+    align-items: center;
+}
+
+.review_id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span{
+        width: 89px;
+        height: 38px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: TT Firs;
+        text-align: center;
+        margin-top: 16px;
+    }
+}
+
+.review__date__stars___mobile{
+    display: none;
+}
+
+.review_vector_design___block{
+    height: 145px;
+    width: 39px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    img{
+        position: absolute;
+        top: 85px;
+    }
+}
+
+.review___main_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.review___main_block___header{
+    display: flex;
+    gap: 16.75px;
+}
+
+.review___main_block___header___mobile{
+    display: none;
+}
+
+.review___date_block{
+    color: rgb(113, 113, 113);
+    font-family: TT Firs;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.review___text_container{
+    margin-top: 12px;
+}
+
+.review___text{
+    width: 754px;
+    height: 116px;
+    padding: 20px;
+    color: rgb(29, 29, 29);
+    font-family: TT Firs;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 14px;
+    background: rgb(243, 243, 243);
 }
