@@ -320,3 +320,80 @@
     border-radius: 14px;
     background: rgb(243, 243, 243);
 }
+
+.reviews__content___right_block___img{
+    background-image: url(../../../img/shops_page/reviews_block.png);
+    width: 494px;
+    height: 464px;
+    float: right;
+    margin-left: 30px
+}
+
+.reviews_bottom_block__container{
+    display: flex;
+    justify-content: center;
+}
+
+.reviews_bottom_block__content{
+    width: 1180px;
+    height: 440px;
+    display: flex;
+    border-radius: 44px;
+    background: rgb(243, 145, 222);
+    margin-top: 70px;
+}
+
+.reviews__content___left_block{
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.reviews__content__text_header{
+    color: rgb(255, 255, 255);
+    font-size: 52px;
+}
+
+.reviews__content__text{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
+
+.reviews__content__button{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    width: 210px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+        color: rgb(243, 145, 222);
+        font-size: 16px;
+    }
+}
+
+.viewed_products__container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.viewed_products__content{
+    width: 1180px;
+}
+
+.viewed_products__text_header{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.viewed_products__prod_cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
