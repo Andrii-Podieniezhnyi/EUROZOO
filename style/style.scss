@@ -263,8 +263,25 @@ a{
     width: 78%;
     height: 368px;
     background-size: cover;
-    
 }
+
+
+
+.banner_slider.img1{
+    background-image: url('../img/main_page_slider/Rectangle 4.png');
+}
+
+.banner_slider.image2 {
+    background-image: url('../img/main_page_slider/banner_2.jpeg');
+}
+
+.banner_slider.image3 {
+    background-image: url('../img/main_page_slider/banner_3.jpeg');
+}
+
+
+
+
 
 .banner_slider__top_text{
     position: relative;
@@ -306,6 +323,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 12px;
+    cursor: pointer;
 
     span{
         color: #FFF;
@@ -332,6 +350,7 @@ a{
     height: 12px;
     background-color: #FF7D01;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .ellipse_2, .ellipse_3{
@@ -340,6 +359,7 @@ a{
     border-radius: 50%;
     border: 2px solid #FF7D01;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .new_products__container{
@@ -962,7 +982,7 @@ a{
         width: 345px;
         margin-top: 14px;
     }
-
+/*
     .banner_slider{
         background-image: url(../img/mobile/top_slider/Rectangle\ 4.png);
         width: 345px;
@@ -970,7 +990,7 @@ a{
         display: flex;
         justify-content: center;
     }
-
+*/
     .banner_slider__content{
         display: flex;
         flex-direction: column;
