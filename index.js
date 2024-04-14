@@ -24,3 +24,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+// slider popular categories //
+
+
+$(document).ready(function () {
+    $('.popular_categories__card__container').slick();
+});

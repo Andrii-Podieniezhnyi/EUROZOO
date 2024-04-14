@@ -666,8 +666,8 @@ a{
 }
 
 .popular_categories__card_1, .popular_categories__card_2, .popular_categories__card_3, .popular_categories__card_4{
-    width: 280px;
-    height: 280px;
+    width: 280px !important;
+    height: 280px !important;
     position: relative;
 }
 
@@ -945,8 +945,38 @@ a{
 }
 
 .app_block__mobile_img__iPhone13Pro, .top_bar_mobile__container, .slider_ellipse__mobile_blur, .popular_categories__card_5, .mobile_button_show__more___container, .brands_clider__to_right, .brands_clider__to_left{
-    display: none;
+    display: none !important;
 }
+
+
+
+
+// slick slider //
+
+.slick-slider {
+    display: flex !important;
+}
+
+.slick-list{
+    width: 59% !important;
+}
+
+.slick-track{
+    display: flex !important;
+    gap: 28px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1166,7 +1196,7 @@ a{
     }
     
     .popular_categories__card_1, .popular_categories__card_2, .popular_categories__card_3, .popular_categories__card_4, .popular_categories__card_5{
-        width: 345px;
+        width: 345px ;
         height: 168px;
 
         a{

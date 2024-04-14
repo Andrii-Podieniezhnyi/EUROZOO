@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EUROZOO</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
     <header>
@@ -408,7 +409,7 @@
                 <div class="section_description">
                     <span>Популярні категорії</span>
                 </div>
-                <div class="popular_categories__card__container">
+                <div class="popular_categories__card__container" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
                     <div class="popular_categories__card_1">
                         <a class="toys_for_cats" href="#">
                             <img src="./img/popular_categories/Arrow.svg" alt="Arrow">
@@ -447,7 +448,7 @@
                             </a> 
                         </button>
                     </div>
-                </div>         
+                </div>   
             </div>
         </section>
         <section>
@@ -587,6 +588,8 @@
             </div>
         </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
