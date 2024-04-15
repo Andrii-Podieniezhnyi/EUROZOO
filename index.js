@@ -31,3 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
 $(document).ready(function () {
     $('.popular_categories__card__container').slick();
 });
+
+
+// slider brands //
+
+$(".multiple-items").slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4
+  });
