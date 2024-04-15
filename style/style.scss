@@ -656,6 +656,9 @@ a{
 
 .popular_categories__container{
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .popular_categories__card__container{
@@ -666,7 +669,7 @@ a{
 }
 
 .popular_categories__card_1, .popular_categories__card_2, .popular_categories__card_3, .popular_categories__card_4{
-    width: 274px !important;
+    width: 271px !important;
     height: 280px !important;
     position: relative;
 }
@@ -949,6 +952,7 @@ a{
     right: -22px !important;
     background-color: transparent;
     background-image: url(../img/popular_categories/to_right.png) !important;
+    cursor: pointer;
     font-size: 0;
 }
 
@@ -963,10 +967,11 @@ a{
     background-color: transparent;
     position: absolute;
     top: 118px !important;
-    left: -18px !important;
+    left: -8px !important;
     z-index: 1;
     background-image: url(../img/popular_categories/to_left.png) !important;
     font-size: 0;
+    cursor: pointer;
 }
 
 
@@ -1015,7 +1020,7 @@ ul.slick-dots li.slick-active button {
 
 .brand_card__content .slick-prev {
     top: 75px !important;
-    left: -10px !important;
+    left: 3px !important;
 }
 
 
@@ -1191,9 +1196,6 @@ ul.slick-dots li.slick-active button {
     .popular_categories__container{
         margin-top: 60px;
         position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .popular_categories__card_1 a:nth-child(2){
