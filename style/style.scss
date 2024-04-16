@@ -225,6 +225,7 @@ a{
         align-items: center;
         gap: 12px;
         height: 33px;
+        cursor: pointer;
     }
     
     span{
@@ -1024,7 +1025,18 @@ ul.slick-dots li.slick-active button {
 }
 
 
+// modal menu
 
+.modal_menu__container{
+    display: none;
+}
+
+.modal_menu__content{
+    height: 512px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 24.5px;
+}
 
 
 
