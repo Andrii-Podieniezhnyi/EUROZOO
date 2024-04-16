@@ -55,43 +55,15 @@ $(".multiple-items").slick({
 
 // header menu //
 
-/*
-document.addEventListener("DOMContentLoaded", function() {
-    // Отримуємо всі елементи меню
-    const menuItems = document.querySelectorAll('.nav_2__container ul li span');
-    
-    // Додаємо обробник події кліку до кожного спану
-    menuItems.forEach(function(span) {
-        // Додаємо обробник події кліку
-        span.addEventListener('click', function() {
-            // Забираємо стилі з усіх спанів
-            menuItems.forEach(function(item) {
-                item.style.color = '';
-                const img = item.parentNode.querySelector('img');
-                // Перевіряємо, чи є зображення і чи це не елемент з класом "promotional"
-                if (img && !item.classList.contains('promotional')) {
-                    img.src = './img/icons/keyboard-arrow-down.png';
-                }
-            });
-            
-            // Встановлюємо стилі для поточного спану
-            span.style.color = 'rgb(255, 125, 1)';
-            const img = span.parentNode.querySelector('img');
-            // Перевіряємо, чи є зображення і чи це не елемент з класом "promotional"
-            if (img && !span.classList.contains('promotional')) {
-                img.src = './img/icons/keyboard-arrow-top.png';
-            }
-        });
-    });
-});
 
-*/
 
 
 document.addEventListener("DOMContentLoaded", function() {
     // Отримуємо всі елементи меню
     const menuItems = document.querySelectorAll('.nav_2__container ul li span');
+        console.log(menuItems);
     const modalMenuContainer = document.querySelector('.modal_menu__container');
+    const modalMenuSectionHeader = document.querySelector('.modal_menu__content__left_block___header');
         
     
     // Додаємо обробник події кліку до кожного спану
@@ -129,7 +101,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Додаємо клас "active"
                 span.classList.add('active');
 
-                modalMenuContainer.style.display = 'flex';             
+                modalMenuContainer.style.display = 'flex';
+                modalMenuSectionHeader.innerHTML = span.innerHTML;             
             }
         });
     });
