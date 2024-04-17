@@ -53,17 +53,18 @@ $(".multiple-items").slick({
 
 
 
-// header menu //
 
 
+// header menu 
 
 
 document.addEventListener("DOMContentLoaded", function() {
     // Отримуємо всі елементи меню
     const menuItems = document.querySelectorAll('.nav_2__container ul li span');
-        console.log(menuItems);
+    const listOfProductCategories = document.querySelectorAll('.list_of_product_categories ul li span');
     const modalMenuContainer = document.querySelector('.modal_menu__container');
     const modalMenuSectionHeader = document.querySelector('.modal_menu__content__left_block___header');
+    const modalListOfProductsHeader = document.querySelector('.modal_menu__content__right_block___header');
         
     
     // Додаємо обробник події кліку до кожного спану
@@ -106,4 +107,24 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
+    listOfProductCategories.forEach(function (span) {
+        span.addEventListener('click', function () {
+
+            listOfProductCategories.forEach(function (span) {
+                span.style.color = 'rgb(29, 29, 29)';
+                span.parentElement.style.background = 'rgb(255, 255, 255)';
+            })
+
+            span.style.color = 'rgb(255, 255, 255)';
+            span.parentElement.style.background = 'rgb(255, 125, 1)';
+            span.classList.add('active');
+
+            modalListOfProductsHeader.innerHTML = span.innerHTML;
+        })
+    })
 });
+
+
+
+//
